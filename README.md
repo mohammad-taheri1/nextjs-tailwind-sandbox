@@ -1,6 +1,6 @@
 # Next.js Tailwind SandBox
 
-## Preferd classes for different pages
+## Preferred classes for different pages
 
 `bg-white rounded-lg mx-4 p-4`
 
@@ -13,3 +13,4 @@
 ## Episodes:
 
 -  01: basic admin panel structure + sidebar menu
+-  02: Custom SelectBox + User area + Language area
