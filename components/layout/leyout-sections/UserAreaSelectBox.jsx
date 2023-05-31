@@ -27,7 +27,7 @@ const UserAreaSelectBox = () => {
             >
                {actions.map((item) => (
                   <div
-                     key={item}
+                     key={item.id}
                      onClick={() => {
                         setOpen(false);
                      }}
