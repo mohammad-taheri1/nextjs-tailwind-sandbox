@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const ContactUsPage = () => {
-  return (
-    <div>ContactUsPage</div>
-  )
-}
+   return <div className="bg-white rounded-lg mx-4 p-4">ContactUsPage</div>;
+};
 
-export default ContactUsPage
+export default ContactUsPage;
