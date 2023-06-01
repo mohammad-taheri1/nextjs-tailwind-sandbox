@@ -15,3 +15,4 @@
 -  01: basic admin panel structure + sidebar menu
 -  02: Custom SelectBox + User area + Language area
 -  03: Custom Sidebar like TailwindCSS Document sample
+-  04: Horizontal Scroller + Instagram Stories + YouTube Categories
