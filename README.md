@@ -1,3 +1,8 @@
+---
+title: Next.js Tailwind SandBox
+last update: "2023-06-23"
+---
+
 # Next.js Tailwind SandBox
 
 ## Preferred classes for different pages
@@ -16,3 +21,4 @@
 -  02: Custom SelectBox + User area + Language area
 -  03: Custom Sidebar like TailwindCSS Document sample
 -  04: Horizontal Scroller + Instagram Stories + YouTube Categories
+-  05: Tabs Component
