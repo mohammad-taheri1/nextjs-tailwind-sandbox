@@ -22,3 +22,5 @@ last update: "2023-06-23"
 -  03: Custom Sidebar like TailwindCSS Document sample
 -  04: Horizontal Scroller + Instagram Stories + YouTube Categories
 -  05: Tabs Component
+-  06: Slider component with real api and products images
+
