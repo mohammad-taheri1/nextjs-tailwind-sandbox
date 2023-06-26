@@ -1,6 +1,6 @@
 ---
 title: Next.js Tailwind SandBox
-last update: "2023-06-23"
+last update: "2023-06-26"
 ---
 
 # Next.js Tailwind SandBox
@@ -23,4 +23,5 @@ last update: "2023-06-23"
 -  04: Horizontal Scroller + Instagram Stories + YouTube Categories
 -  05: Tabs Component
 -  06: Slider component with real api and products images
+-  07: Middleware 🚀
 
