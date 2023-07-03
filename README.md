@@ -1,6 +1,6 @@
 ---
 title: Next.js Tailwind SandBox
-last update: "2023-06-26"
+last update: "2023-07-03"
 ---
 
 # Next.js Tailwind SandBox
@@ -24,4 +24,4 @@ last update: "2023-06-26"
 -  05: Tabs Component
 -  06: Slider component with real api and products images
 -  07: Middleware 🚀
-
+-  08: Instagram Navigation Buttons
