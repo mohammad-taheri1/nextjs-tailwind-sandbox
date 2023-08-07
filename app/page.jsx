@@ -5,7 +5,7 @@ import { MdOutlinePlaylistPlay } from 'react-icons/md';
 const HomePage = () => {
   return (
     <div className='bg-white rounded-lg mx-4 p-4'>
-      <h1 className='text-2xl'>Nextjs Tailwind SandBox</h1>
+      <h1 className='text-2xl font-semibold'>Nextjs Tailwind SandBox</h1>
       <div className='flex flex-col gap-4 w-fit'>
         <a
           className='my-2 text-rose-700 flex items-center'
