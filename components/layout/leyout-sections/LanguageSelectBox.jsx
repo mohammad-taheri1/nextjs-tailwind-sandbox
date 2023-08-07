@@ -15,7 +15,7 @@ const LanguageSelectBox = () => {
 
    return (
       <>
-         <div className="flex flex-col justify-center items-center relative z-30">
+         <div className="flex flex-col justify-center items-center relative z-10">
             <div onClick={() => setOpen((prev) => !prev)} className="p-2 cursor-pointer">
                <span className="text-2xl">
                   <BsGlobeAmericas />

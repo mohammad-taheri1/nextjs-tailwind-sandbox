@@ -12,7 +12,7 @@ const CustomSelectBox = () => {
 
    return (
       <>
-         <div className="bg-gray-100 flex flex-col justify-center items-center w-fit relative z-30">
+         <div className="bg-gray-100 flex flex-col justify-center items-center w-fit relative z-10">
             <div
                onClick={() => setOpen((prev) => !prev)}
                className="flex flex-row justify-between items-center bg-white w-48 my-2 p-2 rounded-lg cursor-pointer"
