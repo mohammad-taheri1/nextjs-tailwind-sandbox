@@ -11,9 +11,11 @@ const MainLayout = ({ children }) => {
   const { open } = useContext(MenuContext);
 
   return (
-    <div className='bg-green-100 min-h-screen'>
+    <div className='min-h-screen bg-gray-100'>
       <MainSidebar />
-      <div className={`${open ? 'max-lg:blur-xl' : 'blur-0'}`}>
+      <div
+        className={`${open ? 'max-lg:blur-xl pointer-events-none' : 'blur-0'}`}
+      >
         <MainHeader />
         <main className='lg:ml-[280px]'>{children}</main>
       </div>
