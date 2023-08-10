@@ -52,13 +52,7 @@ const MainSidebar = () => {
               <Link href='/singular/selectbox' onClick={closeSeideBarHandler}>
                 Select Box
               </Link>
-            </li>
-            <li className='flex justify-start items-center gap-3'>
-              <SiSinglestore />
-              <Link href='/singular/modal' onClick={closeSeideBarHandler}>
-                Modal
-              </Link>
-            </li>
+            </li>            
           </ul>
         </li>
         <li className='flex flex-col justify-start items-start hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2'>
