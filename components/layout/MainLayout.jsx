@@ -14,7 +14,7 @@ const MainLayout = ({ children }) => {
     <div className='min-h-screen bg-gray-200'>
       <MainSidebar />
       <div
-        className={`${open ? 'max-lg:blur-xl pointer-events-none' : 'blur-0'}`}
+        className={`${open ? 'max-lg:blur-xl pointer-events-none' : ''}`}
       >
         <MainHeader />
         <main className='lg:ml-[280px]'>{children}</main>
