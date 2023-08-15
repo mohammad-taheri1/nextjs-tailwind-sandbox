@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "chart.js": "^4.3.3",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
     "flag-icons": "^6.7.0",
     "next": "13.4.4",
     "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "swiper": "^9.4.1"
