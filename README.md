@@ -1,6 +1,6 @@
 ---
 title: Next.js Tailwind SandBox
-last update: '2023-08-15'
+last update: '2023-12-04'
 ---
 
 # Next.js Tailwind SandBox
@@ -35,3 +35,4 @@ last update: '2023-08-15'
   - [x] C06ConfirmationModal
   - [x] C07InputFormModal
   - [x] C08TimerCountdownModal
+- 11: React Hook Form in React JS and/or Next JS

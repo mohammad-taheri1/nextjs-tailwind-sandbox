@@ -23,10 +23,7 @@ const MainSidebar = () => {
     >
       <ul>
         <li className='flex justify-end items-center lg:hidden'>
-          <AiOutlineClose
-            onClick={closeSeideBarHandler}
-            className='text-red-500 hover:text-red-800 cursor-pointer'
-          />
+          <AiOutlineClose onClick={closeSeideBarHandler} className='text-red-500 hover:text-red-800 cursor-pointer' />
         </li>
 
         <li className='flex justify-start items-center hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2'>
@@ -59,6 +56,12 @@ const MainSidebar = () => {
                 Modal
               </Link>
             </li>
+            <li className='flex justify-start items-center gap-3'>
+              <SiSinglestore />
+              <Link href='/singular/rhform' onClick={closeSeideBarHandler}>
+                R.H.Form
+              </Link>
+            </li>
           </ul>
         </li>
         <li className='flex flex-col justify-start items-start hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2'>
@@ -70,10 +73,7 @@ const MainSidebar = () => {
           <ul className='ml-8 mt-4'>
             <li className='flex justify-start items-center gap-3 my-1'>
               <SiSinglestore />
-              <Link
-                href='/complex/horizontal-scrollbar'
-                onClick={closeSeideBarHandler}
-              >
+              <Link href='/complex/horizontal-scrollbar' onClick={closeSeideBarHandler}>
                 Ho-Scrollbar
               </Link>
             </li>
@@ -91,10 +91,7 @@ const MainSidebar = () => {
             </li>
             <li className='flex justify-start items-center gap-3 my-1'>
               <SiSinglestore />
-              <Link
-                href='/complex/simple-multi-step-form'
-                onClick={closeSeideBarHandler}
-              >
+              <Link href='/complex/simple-multi-step-form' onClick={closeSeideBarHandler}>
                 Simple M-S-Form
               </Link>
             </li>
