@@ -72,7 +72,7 @@ const RHFormPage = () => {
 
   return (
     <div className='bg-white rounded-lg mx-4 p-4'>
-      <h1>This is SelectBox page</h1>
+      <h1>This is RHForm page</h1>
       <h1>Re-Render # {x}</h1>
       <form onSubmit={handleSubmit(callBackFunctionTest)} className='flex flex-col max-w-[500px]'>
         <input

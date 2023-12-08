@@ -62,6 +62,12 @@ const MainSidebar = () => {
                 R.H.Form
               </Link>
             </li>
+            <li className='flex justify-start items-center gap-3'>
+              <SiSinglestore />
+              <Link href='/singular/rhf-yup' onClick={closeSeideBarHandler}>
+                R.H.F-Yup
+              </Link>
+            </li>
           </ul>
         </li>
         <li className='flex flex-col justify-start items-start hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2'>
