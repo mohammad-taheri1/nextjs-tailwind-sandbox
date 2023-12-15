@@ -37,3 +37,4 @@ last update: '2023-Dec-08'
   - [x] C08TimerCountdownModal
 - 11: React Hook Form in React JS and/or Next JS
 - 12: Yup + React Hook Form in React JS and/or Next JS
+- 13: Tailwind CSS Dark mode + Dark & Light Theme Switcher
