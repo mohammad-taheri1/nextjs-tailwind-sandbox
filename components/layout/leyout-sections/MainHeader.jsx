@@ -7,7 +7,8 @@ import UserAreaSelectBox from './UserAreaSelectBox';
 import LanguageSelectBox from './LanguageSelectBox';
 
 const MainHeader = () => {
-  const initialTheme = localStorage.getItem('theme') || 'light';
+  const initialTheme =
+    typeof window !== 'undefined' ? localStorage.getItem('theme') : 'light';
   const [theme, setTheme] = useState(initialTheme);
   const { toggle } = useContext(MenuContext);
 
@@ -31,9 +32,15 @@ const MainHeader = () => {
       <div>Brand</div>
       <div className='flex justify-center items-center gap-3'>
         {theme === 'light' ? (
-          <FaMoon className='cursor-pointer' onClick={() => themeSwitchHandler('dark')} />
+          <FaMoon
+            className='cursor-pointer'
+            onClick={() => themeSwitchHandler('dark')}
+          />
         ) : (
-          <FaSun className='cursor-pointer' onClick={() => themeSwitchHandler('light')} />
+          <FaSun
+            className='cursor-pointer'
+            onClick={() => themeSwitchHandler('light')}
+          />
         )}
 
         <div>

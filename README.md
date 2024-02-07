@@ -11,7 +11,7 @@ last update: '2023-Dec-08'
 
 ## Versions:
 
-- "next": "13.4.4",
+- "next": "13.5.6",
 - "react": "18.2.0",
 - "tailwindcss": "^3.3.2"
 
