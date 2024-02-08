@@ -29,7 +29,7 @@ const MainHeader = () => {
 
   return (
     <div className='bg-white dark:bg-slate-800 dark:text-white flex justify-between items-center px-4 h-12 mb-4'>
-      <div>Brand</div>
+      <div>DevEmpower</div>
       <div className='flex justify-center items-center gap-3'>
         {theme === 'light' ? (
           <FaMoon

@@ -1,6 +1,6 @@
 ---
 title: Next.js Tailwind SandBox
-last update: '2023-Dec-08'
+last update: '2024-Feb-09'
 ---
 
 # Next.js Tailwind SandBox
@@ -38,3 +38,4 @@ last update: '2023-Dec-08'
 - 11: React Hook Form in React JS and/or Next JS
 - 12: Yup + React Hook Form in React JS and/or Next JS
 - 13: Tailwind CSS Dark mode + Dark & Light Theme Switcher
+- 14: Custom Right Click Menu (Context Menu) With React js, Next js and Tailwind CSS
