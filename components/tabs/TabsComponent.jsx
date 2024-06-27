@@ -29,7 +29,10 @@ const TabsComponent = ({ items }) => {
 
         <div className='bg-white p-2 rounded-xl'>
           {items.map((item, index) => (
-            <div className={`${selectedTab === index ? '' : 'hidden'}`}>
+            <div
+              key={index}
+              className={`${selectedTab === index ? '' : 'hidden'}`}
+            >
               {item.content}
             </div>
           ))}
