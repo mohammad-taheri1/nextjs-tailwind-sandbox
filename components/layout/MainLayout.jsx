@@ -9,7 +9,8 @@ import MobileButtonNavigation from './leyout-sections/MobileButtonNavigation';
 
 const MainLayout = ({ children }) => {
   const { open } = useContext(MenuContext);
-  const lessThanLg = window.innerWidth < 1024;
+
+  const lessThanLg = typeof window !== 'undefined' ? window?.innerWidth < 1024 : false;
 
   return (
     <div className='min-h-screen bg-gray-200 dark:bg-slate-700'>
