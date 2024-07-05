@@ -18,8 +18,6 @@ const navButtonsList = [
 const MobileButtonNavigation = () => {
   const path = usePathname();
 
-  console.log({ path });
-
   return (
     <div className='fixed bottom-0 left-0 right-0 w-full h-12 bg-white sm:hidden'>
       <div className='flex justify-around items-center h-12 gap-x-3 border-t-2 border-t-gray-200'>
@@ -27,9 +25,7 @@ const MobileButtonNavigation = () => {
           <Link
             key={item.id}
             href={item.path}
-            className={`text-3xl ${
-              path === item.path ? 'text-gray-800' : 'text-gray-400'
-            }`}
+            className={`text-3xl ${path === item.path ? 'text-gray-800' : 'text-gray-400'}`}
           >
             {item.icon}
           </Link>
